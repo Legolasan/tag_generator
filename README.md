@@ -1,0 +1,36 @@
+# Intercom Tag Generator
+
+Tagging is the process of assigning meaningful labels to your customer conversations in Intercom. By meaningful labels, I mean labels that specifically describe what the Intercom conversation is about — in essence, a brief one or two-word summary. These labels, otherwise known as tags, act as a reminder so that you can later remember the contents of the conversation, at a glance.
+
+# Conversation tagging in practice
+
+## Establishing a tagging framework
+
+The first step in your tagging journey is to establish a tagging framework — a consistent set of tags which can summarise the contents of a customer’s conversation in a few words and can be easily understood by the members of your team.
+
+## Recommended tag structure
+
+> TAG -> Primary + Secondary + Documentation
+
+ - Primary : The category component enables you to map **high-level trends**.
+ - Secondary: The second component of your tag introduces another layer of detail about the conversation — **specifying the impact area**. 
+ - Documentation: To accomplish the **documentation purpose**.
+
+## The combined tag
+
+> User Education - Source Config - Document Provided
+
+For the above tag, the convesation was sort of user having an issue *while configuring the source connection. We have guided them with documentation to help them.* 
+
+
+# Applying your tagging framework
+
+Now that you know the theory behind setting up a tagging framework, it’s time to apply it in practice.
+
+## Step 1: Generate Tags
+
+From the provisioned chrome extension, please generate the appropirate tags. 
+
+## Step 2: Apply the Tags
+
+You can now copy the tag from the extenstion window, and past it on intercom. 
