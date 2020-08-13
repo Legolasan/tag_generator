@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+#header{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: -10px;
+}
+#content{
+    width: 650px;
+    height: 200px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+h1, label{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.form-control{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#basic-addon3{
+    font-family: 'Baloo Tamma 2', cursive;
+}
