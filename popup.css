@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-#header{
+#header-p{
     padding-left: 10px;
     padding-top: 15px;
     padding-bottom: -10px;
@@ -10,7 +10,10 @@
     padding-left: 3px;
     padding-right: 3px;
 }
-h1, label{
+#header-p{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.col-form-label{
     font-family: 'Baloo Tamma 2', cursive;
 }
 .form-control{
