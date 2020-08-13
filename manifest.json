@@ -23,7 +23,7 @@
       "default_title": "Does a thing when you do a thing",
       "default_popup": "popup.html",
       "default_icon": {
-        "16": "images/icon.svg"
+        "16": "images/tag.png"
       }
     },
     "signature": "Arun Sunderraj"
