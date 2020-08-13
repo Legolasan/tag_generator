@@ -34,3 +34,14 @@ From the provisioned chrome extension, please generate the appropirate tags.
 ## Step 2: Apply the Tags
 
 You can now copy the tag from the extenstion window, and past it on intercom. 
+
+# Setting up the chrome extension
+
+ 1. Download the this repository as zip. 
+ 2. Un-Zip downloaded file. 
+ 3. You should be seeing the folder called **tag_generator-master**. 
+ 4. Now go to the following link [chrome://extensions](chrome://extensions)
+ 5. Enable the **Developer Mode** (on your right top screen)
+ 6. Click on **Load Unpacked**
+ 7. Now, you can choose the folder that you have un-zipped. 
+ 8. That's all. Good to go. 
