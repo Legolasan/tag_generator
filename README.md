@@ -20,7 +20,7 @@ The first step in your tagging journey is to establish a tagging framework — a
 
 > User Education - Source Config - Document Provided
 
-For the above tag, the convesation was sort of user having an issue *while configuring the source connection. We have guided them with documentation to help them.* 
+For the above tag, the convesation was sort of user having an issue *while configuring the source connection. We have guided them with documentation to resolve it.* 
 
 
 # Applying your tagging framework
