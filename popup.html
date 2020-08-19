@@ -9,7 +9,7 @@
             <h1>[ Tag Generator ]</h1><hr>
         </div>
         <div id="content">
-            <form>
+            <br>
             <div class="form-group row">
                 <label for="primary_comp" class="col-sm-2 col-form-label">Primary</label>
                 <div class="col-sm-10">
@@ -73,12 +73,16 @@
                         <span class="input-group-text" id="basic-addon3">Tag Combination</span>
                     </div>
                     <input type="text" class="form-control" id='tags' aria-describedby="basic-addon3">
+                    <div class="input-group-append">
+                        <button class="input-group-text btn btn-success" id='copyButton' type="button">COPY</button>
+                    </div>
                 </div>
             </div>
             </form>
         </div>
     </div>
     <script src="popup.js"></script>
+    <script src="background.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
