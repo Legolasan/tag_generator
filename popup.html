@@ -13,7 +13,7 @@
                 <div class="form-group row">
                     <label for="primary_comp" class="col-sm-2 col-form-label">Primary</label>
                     <div class="col-sm-10">
-                        <select class="form-control" id='primary'>
+                        <select class="form-control" id='primary' searchable="Search here..">
                             <option value="default_p" selected>--</option>
                             <option value="user_education">User Education</option>
                             <option value="errors">Error</option>
@@ -32,7 +32,7 @@
                     <br></br>
                     <label for="secondary_comp" class="col-sm-2 col-form-label">Secondary</label>
                     <div class="col-sm-10">
-                        <select class="form-control" id='secondary'>
+                        <select class="form-control" id='secondary' data-live-search="true">
                             <option value="default_s" selected>--</option>
                             <option value="pipeline_jobs">Pipeline Jobs</option>
                             <option value="overview_summary">Overview & Summary</option>
@@ -50,6 +50,7 @@
                             <option value="team_settings">Team Settings</option>
                             <option value="alert_settings">Alert Settings & Notifications</option>
                             <option value="workflow">Workflow</option>
+                            <option value="dest_query_performance">Destination Query Performace</option>
                             <option value="account_billing_settings">Account & Billing Settings</option>
                             <option value="not_applicable">Not Applicable</option>
                         </select>
@@ -57,7 +58,7 @@
                     <br></br>
                     <label for="document_comp" class="col-sm-2 col-form-label">Documentation</label>
                     <div class="col-sm-10">
-                        <select class="form-control" id='document'>
+                        <select class="form-control" id='document' data-live-search="true">
                             <option value="default_d" selected>--</option>
                             <option value="document_provided">Document Provided</option>
                             <option value="document_exist">Document Exist</option>
