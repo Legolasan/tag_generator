@@ -1,7 +1,7 @@
 {
     "name":"tag_generator",
     "type":"extension",
-    "broweser": "chrome",
+    "browser": "chrome",
     "versions":{
                 "v1.0.0":{
                             "primary":"",
@@ -19,6 +19,6 @@
                          }
                 },
     "created_by":"arun sunderraj",
-    "start_date":"Aug 13 2020",
+    "created_date":"Aug 13 2020",
     "github": "https://github.com/Legolasan/tag_generator"
 }
