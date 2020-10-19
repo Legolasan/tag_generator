@@ -36,6 +36,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="destination_config">Destination Config</option>');
         $('#secondary').append('<option value="models">Models</option>');
         $('#secondary').append('<option value="workflows">Workflows</option>');
+        $('#secondary').append('<option value="hot_fix">Not Applicable</option>');
     }else if($('#primary').val()=='intermittent_issue'){
         $('#secondary').append('<option value="job_configs">Job Config</option>');
         $('#secondary').append('<option value="overview_summary">Overview & Summary</option>');
@@ -65,6 +66,8 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="platform_security_compliances">Platform Security & Compliances</option>');
         $('#secondary').append('<option value="data_retention_policy">Data Retention Policy</option>');
     }else if($('#primary').val()=='platform_down'){
+        $('#secondary').append('<option value="hot_fix">Hot Fix</option>');
+    }else if($('#primary').val()=='bug'){
         $('#secondary').append('<option value="hot_fix">Hot Fix</option>');
     }
     else{
