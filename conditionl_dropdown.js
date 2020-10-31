@@ -60,8 +60,8 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="account_deletion">Account Deletion</option>');
         $('#secondary').append('<option value="user_management">User Management</option>');
         $('#secondary').append('<option value="trial_extension">Trial Extension</option>');
+        $('#secondary').append('<option value="sign_in_assist">Sign-In Assist</option>');
         $('#secondary').append('<option value="sign_up">Sign Up</option>');
-        $('#secondary').append('<option value="source">Source</option>');
     }else if($('#primary').val()=='compliance'){
         $('#secondary').append('<option value="platform_security_compliances">Platform Security & Compliances</option>');
         $('#secondary').append('<option value="data_retention_policy">Data Retention Policy</option>');
