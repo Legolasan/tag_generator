@@ -7,6 +7,7 @@ $('#primary').on('change',function(){
     }else if($('#primary').val()=='user_education'){
         $('#secondary').append('<option value="product_limiation">Product Limitation</option>');
         $('#secondary').append('<option value="pricing">Pricing</option>');
+        $('#secondary').append('<option value="historical_loads">Historical Loads</option>');
         $('#secondary').append('<option value="billing_payment">Billing & Payment</option>');
         $('#secondary').append('<option value="product_faq">Product FAQ</option>');
         $('#secondary').append('<option value="job_configs">Job Config</option>');
