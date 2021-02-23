@@ -26,6 +26,8 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="workflows">Workflows</option>');
         $('#secondary').append('<option value="team_settings">Team Settings</option>');
         $('#secondary').append('<option value="alerts_notifications">Alert & Notiifications</option>');
+    }else if($('#primary').val()=='user_request'){
+        $('#secondary').append('<option value="enablement">Enablement</option>');
     }else if($('#primary').val()=='errors'){
         $('#secondary').append('<option value="job_configs">Job Config</option>');
         $('#secondary').append('<option value="overview_summary">Overview & Summary</option>');
