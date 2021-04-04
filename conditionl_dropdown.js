@@ -73,6 +73,12 @@ $('#primary').on('change',function(){
     }else if($('#primary').val()=='bug'){
         $('#secondary').append('<option value="hot_fix">Hot Fix</option>');
     }
+    else if($('#primary').val()=='throttling'){
+        $('#secondary').append('<option value="hot_fix">Hot Fix</option>');
+        $('#secondary').append('<option value="pipeline_config">Pipeline Config</option>');
+        $('#secondary').append('<option value="product_limiation">Product Limitation</option>');
+        $('#secondary').append('<option value="not_an_issue">Not An Issue</option>');
+    }
     else{
         $('#secondary').append('<option value="hot_fix">Not Applicable</option>');
     }
