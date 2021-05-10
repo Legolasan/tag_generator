@@ -18,8 +18,8 @@
 //         }
 //     });
 // });
-$('#primary, #secondary, #document').on('change', function(){
+$('#primary, #secondary, #teritiary').on('change', function(){
     $('#tags').val($('#primary option:selected').text() + ' - ' +
     $('#secondary option:selected').text() + ' - ' +
-    $('#document option:selected').text());
+    $('#teritiary option:selected').text());
 });
