@@ -10,6 +10,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
         $('#secondary').append('<option value="model">Model</option>');
+        $('#secondary').append('<option value="account">Account</option>');
         $('#secondary').append('<option value="workflow">Workflow</option>');
         $('#secondary').append('<option value="activity_log">Activity Log</option>');
         $('#secondary').append('<option value="alerts_preference">Alerts & Preferences</option>');
