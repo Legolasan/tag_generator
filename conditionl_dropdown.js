@@ -65,7 +65,7 @@ $('#primary').on('change',function(){
     }
     else if ($('#primary').val()=='faq'){
         $('#secondary').append('<option value="not_a_value">--</option>');
-        $('#secondary').append('<option value="none_faq"></option>');
+        $('#secondary').append('<option value="not_applicable_secondary">Not Applicable</option>');
     }
     else {
         $('#secondary').append('<option value="not_a_value">--</option>');
@@ -278,14 +278,14 @@ $('#primary').on('change',function(){
         else if ($('#secondary').val()=='workarounds'){
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
+        else if ($('#secondary').val()=='not_applicable_secondary'){
+            $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
+        }
         else if ($('#secondary').val()=='source_name'){
             $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="enhancement_name" type="text" />');
         }
         else if ($('#secondary').val()=='destination_name'){
             $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="destination_name" type="text" />');
-        }
-        else if ($('#secnodary').val()=='none_faq'){
-            $('#teritiary').append('<option value="none_faq_tr"> </option>');
         }
         else {
             $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="others_name" type="text" />');
