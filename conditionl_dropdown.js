@@ -65,22 +65,7 @@ $('#primary').on('change',function(){
     }
     else if ($('#primary').val()=='faq'){
         $('#secondary').append('<option value="not_a_value">--</option>');
-        $('#secondary').append('<option value="source_configuration">Source Configuration</option>');
-        $('#secondary').append('<option value="destination_configuration">Destination Configuration</option>');
-        $('#secondary').append('<option value="json_parsing">JSON Parsing Method</option>');
-        $('#secondary').append('<option value="schema_mapper">Schema Mapper</option>');
-        $('#secondary').append('<option value="job_configuration">Job Configuration</option>');
-        $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
-        $('#secondary').append('<option value="transformation">Transformation</option>');
-        $('#secondary').append('<option value="model">Model</option>');
-        $('#secondary').append('<option value="workflow">Workflow</option>');
-        $('#secondary').append('<option value="activity_log">Activity Log</option>');
-        $('#secondary').append('<option value="alerts_preference">Alerts & Preferences</option>');
-        $('#secondary').append('<option value="user_management">User Management</option>');
-        $('#secondary').append('<option value="billing_payment">Billing & Payment</option>');
-        $('#secondary').append('<option value="pricing_plan">Pricing Plan</option>');
-        $('#secondary').append('<option value="hevo_api">Hevo API</option>');
-        $('#secondary').append('<option value="hevo_activate">Hevo Activate</option>');
+        $('#secondary').append('<option value="none_faq"></option>');
     }
     else {
         $('#secondary').append('<option value="not_a_value">--</option>');
@@ -298,6 +283,9 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='destination_name'){
             $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="destination_name" type="text" />');
+        }
+        else if ($('#secnodary').val()=='none_faq'){
+            $('#teritiary').append('<option value="none_faq_tr"> </option>');
         }
         else {
             $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="others_name" type="text" />');
