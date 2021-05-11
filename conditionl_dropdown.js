@@ -270,25 +270,31 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="invalid_script">Invalid Script</option>');
         }
         else if ($('#secondary').val()=='platform_down'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='backend_configuration_change'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='workarounds'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='not_applicable_secondary'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='source_name'){
-            $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="enhancement_name" type="text" />');
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='destination_name'){
-            $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="destination_name" type="text" />');
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else {
-            $('#teritiary').replaceWith('<input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="others_name" type="text" />');
+            $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
     });
 });
