@@ -10,7 +10,7 @@ The first step in your tagging journey is to establish a tagging framework — a
 
 ## Recommended tag structure
 
-> TAG -> Primary + Secondary + Documentation
+> TAG -> Primary + Secondary + Teritiary
 
  - Primary : The category component enables you to map **high-level trends**.
  - Secondary: The second component of your tag introduces another layer of detail about the conversation — **specifying the impact area**. 
@@ -18,7 +18,7 @@ The first step in your tagging journey is to establish a tagging framework — a
 
 ## The combined tag
 
-> User Education - Source Config - Document Provided
+> User Education - Source Configuration - Mongo DB
 
 For the above tag, the convesation was sort of user having an issue *while configuring the source connection. We have guided them with documentation to resolve it.* 
 
