@@ -147,7 +147,7 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='pipeline_configuration'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
-            $('#teritiary').append('<option value="ssh_configurations">SSH Configurartion</option>');
+            $('#teritiary').append('<option value="ssh_configurations">SSH Configuration</option>');
             $('#teritiary').append('<option value="ssl_connections">SSL Connections</option>');
             $('#teritiary').append('<option value="merge_functionalities">Merge Functionality</option>');
             $('#teritiary').append('<option value="historical_loads">Historical Loads</option>');
