@@ -10,6 +10,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
         $('#secondary').append('<option value="load_delays">Load Delays</option>');
+        $('#secondary').append('<option value="product_demo">Product Demo</option>');
         $('#secondary').append('<option value="model">Model</option>');
         $('#secondary').append('<option value="account">Account</option>');
         $('#secondary').append('<option value="workflow">Workflow</option>');
@@ -342,6 +343,10 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else if ($('#secondary').val()=='destination_name'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
+        }
+        else if ($('#secondary').val()=='product_demo'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
