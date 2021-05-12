@@ -9,6 +9,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="job_configuration">Job Configuration</option>');
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
+        $('#secondary').append('<option value="load_delays">Load Delays</option>');
         $('#secondary').append('<option value="model">Model</option>');
         $('#secondary').append('<option value="account">Account</option>');
         $('#secondary').append('<option value="workflow">Workflow</option>');
@@ -32,6 +33,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="model_failure">Model Failure</option>');
         $('#secondary').append('<option value="workflow_failure">Workflow Failure</option>');
         $('#secondary').append('<option value="load_job">Load Job</option>');
+        $('#secondary').append('<option value="load_delays">Load Delays</option>');
         $('#secondary').append('<option value="product_limitation">Product Limitation</option>');
         $('#secondary').append('<option value="backend_configuration_change">Backend Configuration Change</option>');
         // $('#secondary').append('<option value="workarounds">Workarounds</option>');
@@ -46,6 +48,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
         $('#secondary').append('<option value="model">Model</option>');
+        $('#secondary').append('<option value="load_delays">Load Delays</option>');
         $('#secondary').append('<option value="workflow">Workflow</option>');
         $('#secondary').append('<option value="account">Account</option>');
         $('#secondary').append('<option value="hevo_api">Hevo API</option>');
@@ -87,6 +90,15 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="handyman_jobs">Handyman Jobs</option>');
             $('#teritiary').append('<option value="kafka_systems">Kafka Systems</option>');
+        }
+        else if ($('#secondary').val()=='load_delays'){
+            $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
+            $('#teritiary').append('<option value="mysql">MySQL</option>');
+            $('#teritiary').append('<option value="postgres">Postgres</option>');
+            $('#teritiary').append('<option value="redshift">Redshift</option>');
+            $('#teritiary').append('<option value="snowflake">Snowflake</option>');
+            $('#teritiary').append('<option value="s3">AWS S3</option>');
+            $('#teritiary').append('<option value="bigquery">BigQuery</option>');
         }
         else if ($('#secondary').val()=='source_configuration'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
