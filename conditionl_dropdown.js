@@ -21,6 +21,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="pricing_plan">Pricing Plan</option>');
         $('#secondary').append('<option value="hevo_api">Hevo API</option>');
         $('#secondary').append('<option value="hevo_activate">Hevo Activate</option>');
+        $('#secondary').append('<option value="data_replication">Data Replication</option>');
     }
     else if ($('#primary').val()=='errors'){
         $('#secondary').append('<option value="not_a_value">--</option>');
@@ -87,10 +88,20 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
         }
+        else if ($('#SECONDARY').val()=='data_replication'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+        }
         else if ($('#secondary').val()=='degraded_performance'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
-            $('#teritiary').append('<option value="handyman_jobs">Handyman Jobs</option>');
-            $('#teritiary').append('<option value="kafka_systems">Kafka Systems</option>');
+            $('#teritiary').append('<option value="salesforce">Salesforce</option>');
+            $('#teritiary').append('<option value="clevertap">CleverTap</option>');
+            $('#teritiary').append('<option value="amplitude">Amplitude</option>');
+            $('#teritiary').append('<option value="google_ads">Google Ads</option>');
+            $('#teritiary').append('<option value="google_sheets">Google Sheets</option>');
+            $('#teritiary').append('<option value="log_replication">Log Replication</option>');
+            $('#teritiary').append('<option value="incremental_load">Incremental Load</option>');
+            $('#teritiary').append('<option value="s3">AWS S3</option>');
         }
         else if ($('#secondary').val()=='load_delays'){
             $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
