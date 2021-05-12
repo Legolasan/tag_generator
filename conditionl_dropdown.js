@@ -34,7 +34,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="load_job">Load Job</option>');
         $('#secondary').append('<option value="product_limitation">Product Limitation</option>');
         $('#secondary').append('<option value="backend_configuration_change">Backend Configuration Change</option>');
-        $('#secondary').append('<option value="workarounds">Workarounds</option>');
+        // $('#secondary').append('<option value="workarounds">Workarounds</option>');
     }
     else if ($('#primary').val()=='bug'){
         $('#secondary').append('<option value="not_a_value">--</option>');
@@ -62,6 +62,7 @@ $('#primary').on('change',function(){
     else if ($('#primary').val()=='platform'){
         $('#secondary').append('<option value="not_a_value">--</option>');
         $('#secondary').append('<option value="platform_down">Platform Down</option>');
+        $('#secondary').append('<option value="degraded_performance">Degraded Performance</option>');
         $('#secondary').append('<option value="compliance_security">Compliance & Security</option>');
     }
     else if ($('#primary').val()=='faq'){
@@ -81,6 +82,11 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
+        }
+        else if ($('#secondary').val()=='degraded_performance'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="handyman_jobs">Handyman Jobs</option>');
+            $('#teritiary').append('<option value="kafka_systems">Kafka Systems</option>');
         }
         else if ($('#secondary').val()=='source_configuration'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
@@ -291,6 +297,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="hubspot">HubSpot</option>');
             $('#teritiary').append('<option value="ecommerce">E-Commerce</option>');
             $('#teritiary').append('<option value="appsflyer">AppsFlyer</option>');
+            $('#teritiary').append('<option value="salesforce">Salesforce</option>');
         }
         else if ($('#secondary').val()=='transformation_error'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
