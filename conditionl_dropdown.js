@@ -219,6 +219,7 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='billing_payment'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="add_remove_card">Add/Remove Card</option>');
             $('#teritiary').append('<option value="invoices">Invoices</option>');
             $('#teritiary').append('<option value="failed_payments">Failed Payments</option>');
             $('#teritiary').append('<option value="subscriptions">Subscriptions</option>');
