@@ -106,7 +106,8 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
             $('#teritiary').append('<option value="mysql">MySQL</option>');
             $('#teritiary').append('<option value="postgres">Postgres</option>');
-            $('#teritiary').append('<option value="sdk_steaming">SDK & Streaming</option>');
+            $('#teritiary').append('<option value="rest_api">REST API</option>');
+            $('#teritiary').append('<option value="webhooks">Webhooks</option>');
             $('#teritiary').append('<option value="cloud_storage">Cloud Storage</option>');
             $('#teritiary').append('<option value="colud_application">Colud Application</option>');
             $('#teritiary').append('<option value="analytics">Analytics</option>');
