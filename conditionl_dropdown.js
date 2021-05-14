@@ -42,6 +42,7 @@ $('#primary').on('change',function(){
     }
     else if ($('#primary').val()=='bug'){
         $('#secondary').append('<option value="not_a_value">--</option>');
+        $('#secondary').append('<option value="connectors">Connectors</option>');
         $('#secondary').append('<option value="source_configuration">Source Configuration</option>');
         $('#secondary').append('<option value="source_authorization">Source Authorization</option>');
         $('#secondary').append('<option value="destination_configuration">Destination Configuration</option>');
@@ -78,6 +79,9 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="not_a_value">--</option>');
         $('#secondary').append('<option value="backend_configuration_change">Backend Configuration Change</option>');
         $('#secondary').append('<option value="workarounds">Workarounds</option>');
+        $('#secondary').append('<option value="account_creation">Account Creation</option>');
+        $('#secondary').append('<option value="account_deletion">Account Deletion</option>');
+        $('#secondary').append('<option value="event_waivers">Event Waivers</option>');
     }
 
 // SELECTION OF SECONDARY
@@ -88,8 +92,30 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
         }
+        else if ($('#secondary').val()=='connectors'){
+            $('#teritiary').append('<option value="salesforce">Salesforce</option>');
+            $('#teritiary').append('<option value="clevertap">CleverTap</option>');
+            $('#teritiary').append('<option value="amplitude">Amplitude</option>');
+            $('#teritiary').append('<option value="google_ads">Google Ads</option>');
+            $('#teritiary').append('<option value="google_sheets">Google Sheets</option>');
+            $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
+            $('#teritiary').append('<option value="mysql">MySQL</option>');
+            $('#teritiary').append('<option value="postgres">Postgres</option>');
+            $('#teritiary').append('<option value="clevertap">CleverTap</option>');
+            $('#teritiary').append('<option value="amplitude">Amplitude</option>');
+            $('#teritiary').append('<option value="google_ads">Google Ads</option>');
+            $('#teritiary').append('<optoon value="google_play">Google Play</optoon>');
+            $('#teritiary').append('<option value="instagram">Instagram</option>');
+            $('#teritiary').append('<option value="google_360">Google 360</option>');
+            $('#teritiary').append('<option value="google_analytics">Google Analytics</option>');
+            $('#teritiary').append('<option value="appsflyer">AppsFlyer</option>');
+            $('#teritiary').append('<option value="hubspot">HubSpot</option>');
+            $('#teritiary').append('<option value="facebook">Facebook</option>');
+            $('#teritiary').append('<option value="ms_ads">MS ADS</option>');
+            $('#teritiary').append('<option value="twitter">Twitter</option>');
+            $('#teritiary').append('<option value="intercom">Intercom</option>');
+        }
         else if ($('#secondary').val()=='data_replication'){
-            $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="salesforce">Salesforce</option>');
             $('#teritiary').append('<option value="clevertap">CleverTap</option>');
@@ -97,6 +123,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="google_ads">Google Ads</option>');
             $('#teritiary').append('<option value="google_sheets">Google Sheets</option>');
             $('#teritiary').append('<option value="log_replication">Log Replication</option>');
+            $('#teritiary').append('<option value="historical_loads">Historical Loads</option>');
             $('#teritiary').append('<option value="incremental_load">Incremental Load</option>');
             $('#teritiary').append('<option value="s3">AWS S3</option>');
         }
@@ -354,17 +381,22 @@ $('#primary').on('change',function(){
         else if ($('#secondary').val()=='source_name'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
+            $('#teritiary').append('<option value="product_improvement">Product Improvement</option>');
         }
         else if ($('#secondary').val()=='destination_name'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
+            $('#teritiary').append('<option value="product_improvement">Product Improvement</option>');
         }
         else if ($('#secondary').val()=='product_demo'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
         }
         else {
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+
             $('#teritiary').append('<option value="not_applicable">Not Applicable</option>');
+            $('#teritiary').append('<option value="product_improvement">Product Improvement</option>');
         }
     });
 });
