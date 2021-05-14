@@ -164,6 +164,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
             $('#teritiary').append('<option value="mysql">MySQL</option>');
             $('#teritiary').append('<option value="postgres">Postgres</option>');
+            $('#teritiary').append('<option value="hevo_managed_big_query">Hevo Managed BigQuery</option>');
         }
         else if ($('#secondary').val()=='schema_mapper'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
