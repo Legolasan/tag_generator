@@ -123,9 +123,13 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="google_ads">Google Ads</option>');
             $('#teritiary').append('<option value="google_sheets">Google Sheets</option>');
             $('#teritiary').append('<option value="log_replication">Log Replication</option>');
+            $('#teritiary').append('<option value="loading_with_pk">Loading with Primary Key</option>');
+            $('#teritiary').append('<option value="loafing_without_pk">Loading without Primary Key</option>');
+            $('#teritiary').append('<option value="append_on_update">Append On Update</option>');
             $('#teritiary').append('<option value="historical_loads">Historical Loads</option>');
             $('#teritiary').append('<option value="incremental_load">Incremental Load</option>');
             $('#teritiary').append('<option value="s3">AWS S3</option>');
+
         }
         else if ($('#secondary').val()=='degraded_performance'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
