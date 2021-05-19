@@ -9,6 +9,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="job_configuration">Job Configuration</option>');
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
+        $('#secondary').append('<option value="ingestion_modes">Ingestion Modes</option>');
         $('#secondary').append('<option value="load_delays">Load Delays</option>');
         $('#secondary').append('<option value="product_demo">Product Demo</option>');
         $('#secondary').append('<option value="model">Model</option>');
@@ -20,6 +21,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="billing_payment">Billing & Payment</option>');
         $('#secondary').append('<option value="pricing_plan">Pricing Plan</option>');
         $('#secondary').append('<option value="hevo_api">Hevo API</option>');
+        $('#secondary').append('<option value="product_limitation">Product Limitation</option>');
         $('#secondary').append('<option value="hevo_activate">Hevo Activate</option>');
         $('#secondary').append('<option value="data_replication">Data Replication</option>');
     }
@@ -54,6 +56,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="load_delays">Load Delays</option>');
         $('#secondary').append('<option value="workflow">Workflow</option>');
         $('#secondary').append('<option value="account">Account</option>');
+        $('#secondary').append('<option value="hevo_activate">Hevo Activate</option>');
         $('#secondary').append('<option value="hevo_api">Hevo API</option>');
         $('#secondary').append('<option value="data_integrity">Data Integrity</option>');
         $('#secondary').append('<option value="product_limitation">Product Limitation</option>');
@@ -91,6 +94,12 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
+        }
+        else if ($('#secondary').val()=='ingestion_modes'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="log_replication">Log Replication</option>');
+            $('#teritiary').append('<option value="custom_sql">Custom SQL</option>');
+            $('#teritiary').append('<option value="table_mode">Table Mode</option>');
         }
         else if ($('#secondary').val()=='connectors'){
             $('#teritiary').append('<option value="salesforce">Salesforce</option>');
@@ -286,8 +295,10 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='hevo_activate'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
-            $('#teritiary').append('<option value="setup_api">Setup API</option>');
+            $('#teritiary').append('<option value="schedules">Schedules</option>');
+            $('#teritiary').append('<option value="query_failure">Query Failure</option>');
             $('#teritiary').append('<option value="faq">FAQ</option>');
+            $('#teritiary').append('<option value="mapping_changes">Mapping Changes</option>');
         }
         else if ($('#secondary').val()=='load_job'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
