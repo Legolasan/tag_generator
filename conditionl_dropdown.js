@@ -126,6 +126,7 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='data_replication'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="schedules">Schedules</option>');
             $('#teritiary').append('<option value="salesforce">Salesforce</option>');
             $('#teritiary').append('<option value="clevertap">CleverTap</option>');
             $('#teritiary').append('<option value="amplitude">Amplitude</option>');
