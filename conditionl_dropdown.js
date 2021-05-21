@@ -7,7 +7,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="json_parsing">JSON Parsing Method</option>');
         $('#secondary').append('<option value="schema_mapper">Schema Mapper</option>');
         $('#secondary').append('<option value="job_configuration">Job Configuration</option>');
-        $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
+        $('#secondary').append('<option value="advanced_settings">Advanced Settings</option>');
         $('#secondary').append('<option value="transformation">Transformation</option>');
         $('#secondary').append('<option value="ingestion_modes">Ingestion Modes</option>');
         $('#secondary').append('<option value="load_delays">Load Delays</option>');
@@ -139,6 +139,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="historical_loads">Historical Loads</option>');
             $('#teritiary').append('<option value="incremental_load">Incremental Load</option>');
             $('#teritiary').append('<option value="s3">AWS S3</option>');
+            $('#teritiary').append('<option value="rest_api">REST API</option>');
 
         }
         else if ($('#secondary').val()=='degraded_performance'){
@@ -200,7 +201,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="cdc">Change Data Capture</option>');
             $('#teritiary').append('<option value="delay_configuration">Delay Configuration</option>');
         }
-        else if ($('#secondary').val()=='pipeline_configuration'){
+        else if ($('#secondary').val()=='advanced_settings'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="ssh_configurations">SSH Configuration</option>');
             $('#teritiary').append('<option value="ssl_connections">SSL Connections</option>');
@@ -210,6 +211,8 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="prefixes">Prefix</option>');
             $('#teritiary').append('<option value="load_all_database">Load All Database</option>');
             $('#teritiary').append('<option value="custom_schedule">Custom Schedule</option>');
+            $('#teritiary').append('<option value="load_timestamp">Populate Load Timestamp</option>');
+            $('#teritiary').append('<option value="name_sanitization">Name Sanitization</option>');
         }
         else if ($('#secondary').val()=='transformation'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
@@ -370,6 +373,7 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="ecommerce">E-Commerce</option>');
             $('#teritiary').append('<option value="appsflyer">AppsFlyer</option>');
             $('#teritiary').append('<option value="salesforce">Salesforce</option>');
+            $('#teritiary').append('<option value="stripe">Stripe</option>');
         }
         else if ($('#secondary').val()=='transformation_error'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
