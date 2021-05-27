@@ -30,6 +30,7 @@ $('#primary').on('change',function(){
         $('#secondary').append('<option value="source_configuration">Source Configuration</option>');
         $('#secondary').append('<option value="source_authorization">Source Authorization</option>');
         $('#secondary').append('<option value="destination_configuration">Destination Configuration</option>');
+        $('#secondary').append('<option value="connection_errors">Connection Errors</option>');
         $('#secondary').append('<option value="schema_mapper">Schema Mapper</option>');
         $('#secondary').append('<option value="job_configuration">Job Configuration</option>');
         $('#secondary').append('<option value="pipeline_configuration">Pipeline Configuration</option>');
@@ -94,6 +95,31 @@ $('#primary').on('change',function(){
             $('#teritiary').append('<option value="not_a_value">--</option>');
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
+        }
+        else if ($('#secondary').val()=='connection_errors'){
+            $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="salesforce">Salesforce</option>');
+            $('#teritiary').append('<option value="clevertap">CleverTap</option>');
+            $('#teritiary').append('<option value="amplitude">Amplitude</option>');
+            $('#teritiary').append('<option value="google_ads">Google Ads</option>');
+            $('#teritiary').append('<option value="google_sheets">Google Sheets</option>');
+            $('#teritiary').append('<option value="ms_sql">MS SQL</option>');
+            $('#teritiary').append('<option value="mongo">Mongo DB</option>');
+            $('#teritiary').append('<option value="mysql">MySQL</option>');
+            $('#teritiary').append('<option value="postgres">Postgres</option>');
+            $('#teritiary').append('<option value="clevertap">CleverTap</option>');
+            $('#teritiary').append('<option value="amplitude">Amplitude</option>');
+            $('#teritiary').append('<option value="google_ads">Google Ads</option>');
+            $('#teritiary').append('<optoon value="google_play">Google Play</optoon>');
+            $('#teritiary').append('<option value="instagram">Instagram</option>');
+            $('#teritiary').append('<option value="google_360">Google 360</option>');
+            $('#teritiary').append('<option value="google_analytics">Google Analytics</option>');
+            $('#teritiary').append('<option value="appsflyer">AppsFlyer</option>');
+            $('#teritiary').append('<option value="hubspot">HubSpot</option>');
+            $('#teritiary').append('<option value="facebook">Facebook</option>');
+            $('#teritiary').append('<option value="ms_ads">MS ADS</option>');
+            $('#teritiary').append('<option value="twitter">Twitter</option>');
+            $('#teritiary').append('<option value="intercom">Intercom</option>');
         }
         else if ($('#secondary').val()=='ingestion_modes'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
@@ -195,6 +221,12 @@ $('#primary').on('change',function(){
         }
         else if ($('#secondary').val()=='job_configuration'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="change_stream">Change Stream</option>');
+            $('#teritiary').append('<option value="bin_log">BinLog</option>');
+            $('#teritiary').append('<option value="oplog">OpLog</option>');
+            $('#teritiary').append('<option value="redo_log">Redo Log</option>');
+            $('#teritiary').append('<option value="wal">WAL</option>');
+            $('#teritiary').append('<option value="full_load">Full Load</option>');
             $('#teritiary').append('<option value="full_load">Full Load</option>');
             $('#teritiary').append('<option value="delta_timestamp">Delta Timestamp</option>');
             $('#teritiary').append('<option value="unique_incremental">Unique Incremental</option>');
