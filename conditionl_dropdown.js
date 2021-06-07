@@ -93,6 +93,8 @@ $('#primary').on('change',function(){
         $('#teritiary').html('');
         if ($('#secondary').val()=='json_parsing'){
             $('#teritiary').append('<option value="not_a_value">--</option>');
+            $('#teritiary').append('<option value="split_strategy">Split Strategy</option>');
+            $('#teritiary').append('<option value="collapse_strategy">Collapse Strategy</option>');
             $('#teritiary').append('<option value="non_availability">Non Availability</option>');
             $('#teritiary').append('<option value="changing_methods">Changing Methods</option>');
         }
