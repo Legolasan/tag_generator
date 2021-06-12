@@ -45,3 +45,6 @@ You can now copy the tag from the extenstion window, and paste it on intercom.
  6. Click on **Load Unpacked**
  7. Now, you can choose the folder that you have un-zipped. 
  8. That's all. Good to go. 
+
+#Version 
+## 
