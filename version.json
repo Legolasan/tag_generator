@@ -18,6 +18,13 @@
                             "datetime":"2020-08-24"
                          }
                 },
+                "v2.0.0": {
+                            "primary":"", 
+                            "secondary":"",
+                            "teritiary":"",
+                            "extra":"replace bootstrap with Bulma framework",
+                            "datetime": "2021-06-12"
+                },
     "created_by":"arun sunderraj",
     "created_date":"Aug 13 2020",
     "github": "https://github.com/Legolasan/tag_generator"
