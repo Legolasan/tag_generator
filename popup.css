@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-#header-p{
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap'); */
+/* #header-p{
     background-color: rgba(184, 87, 240, 0.445);
     padding-left: 10px;
     padding-top: 15px;
-}
-#content{
-    width: 650px;
+} */
+/* #content{
+    width: 700px;
     height: 200px;
     padding-left: 3px;
     padding-right: 3px;
     margin-top: -12px;
     background-color: rgb(195, 196, 250);
-}
-#header-p{
+} */
+/* #header-p{
     font-family: 'Baloo Tamma 2', cursive;
 }
 .col-form-label{
@@ -23,4 +23,8 @@
 }
 #basic-addon3{
     font-family: 'Baloo Tamma 2', cursive;
+} */
+html{
+    width: 500px;
+    /* height: 200 px; */
 }
