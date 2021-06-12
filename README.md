@@ -48,3 +48,4 @@ You can now copy the tag from the extenstion window, and paste it on intercom.
 
 # Version 
 ## 
+* Current Version : v2.0
