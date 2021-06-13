@@ -16,7 +16,7 @@
       {
         "matches": ["https://intercom.com/*"],
         "css": ["popup.css"],
-        "js":["popup.js", "connect.js", "background.js", "conditionl_dropdown.js", "ripple.js"]
+        "js":["popup.js", "connect.js", "background.js", "conditional_dropdown_2.js", "ripple.js"]
       }
     ],
     "browser_action": {
