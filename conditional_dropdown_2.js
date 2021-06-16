@@ -1,6 +1,7 @@
 jQuery(function($){
     var secondary = {
         'default_p': ['--'],
+        'issue':['--','Issue'],
         'user_education': ['--','Account', 'Advanced Settings', 'Alerts', 'Auto-Mapping', 'Manual Mapping','Destination Configuration', 'Hevo API', 'Ingestion Schedules', 'JSON Strategies', 'Job Configurations', 'Limitations', 'Load Delay', 'Load Schedules', 'Load Status', 'Manual Mapping', 'Models', 'Overview Page Functionalities', 'Payments', 'Pipeline Modes', 'Pricing & Billing', 'Source Configuration', 'Transformations', 'User Management', 'Workflows'],
         'errors':['--', 'Destination Configuration', 'Failed Events', 'Intermittent Errors','Job Failures', 'Load Failures', 'Model Failure', 'Schema Mapper Errors', 'Source Configuration', 'Workflow Failure'],
         'bug': ['--', 'Account', 'Auto-Mapping', 'Destination Configuration', 'Hevo API', 'Hevo Activate', 'Intermittent Errors', 'Job Failures', 'Limitation', 'Load Failures', 'Models', 'Overview Page Functionalities', 'Platform Down', 'Source Configuration', 'Transformation', 'Workflows'],
@@ -15,6 +16,7 @@ jQuery(function($){
     }
     var teritiary= {
         'default_p': ['--'],
+        'Issue':['--', 'Delay in load', 'Others', 'Structure of data loaded is not correct', 'Data load not started', 'Volume of data mismatch','Issue with transformation'],
         'Source Configuration' : ['--', "ADROLL","AMPLITUDE_ANALYTICS","ANDROID_SDK","APPLE_SEARCH_ADS","APPSFLYER","ATLAS_MONGODB","AURORA","AWS_AURORA_POSTGRES","AWS_ELASTICSEARCH","AWS_RDS_MARIA_DB","AWS_RDS_MSSQL","AWS_RDS_MYSQL","AWS_RDS_ORACLE","AWS_RDS_POSTGRES","AZURE_MARIA_DB","AZURE_MYSQL","AZURE_POSTGRES","AZURE_SQL","CLEVERTAP","CONFLUENT_CLOUD","CRITEO","DRIVE","DYNAMODB","ELASTICSEARCH","FACEBOOK_ADS","FACEBOOK_PAGES","FRESHDESK","FTP","GCP_MS_SQL","GCP_MYSQL","GCP_POSTGRES","GCS","GITHUB","GOOGLE_ADWORDS","GOOGLE_ANALYTICS","GOOGLE_CAMPAIGN_MANAGER","GOOGLE_PLAY_CONSOLE","GOOGLE_SEARCH_CONSOLE","GOOGLE_SHEETS","HUBSPOT","INTERCOM","INTERCOM_WEBHOOK","IOS_SDK","JIRA_CLOUD","KAFKA","KLAVIYO","LINKEDIN_ADS","MAILCHIMP","MAILCHIMP_WEBHOOK","MARIA_DB","MARKETO","MICROSOFT_ADS","MIXPANEL","MONGODB","MS_SQL","MYSQL","ORACLE","ORACLE_MYSQL","OUTBRAIN","PARDOT","POSTGRES","REDSHIFT","RESTAPI","SALESFORCE","SALESFORCE_MARKETING_CLOUD","SEGMENT","SENDGRID","SENDGRID_WEBHOOK","SF_HEROKU_POSTGRES","SHOPIFY","SHOPIFY_WEBHOOK","STRIPE","TOKU_DB_MYSQL","TWITTER_ADS","WEBHOOK","INSTAGRAM_BUSINESS","BIGQUERY","GOOGLE_ANALYTICS_360","YOUTUBE_ANALYTICS"],
         'Destination Configuration' : ['--', 'BIGQUERY', 'MSSQL', 'MYSQL', 'POSTGRES', 'REDSHIFT', 'SNOWFLAKE'],
         'Account': ['--', 'Account Creation', 'Account Deletetion', 'Account Migration', 'Trial Extension', 'Login Issues'],
