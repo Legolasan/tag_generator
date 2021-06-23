@@ -9,14 +9,14 @@ jQuery(function($){
         'enhancement': ['--','Source', 'Destination', 'Product Improvement', 'UI/UX Experience'],
         'product_demo': ['--', 'Hevo Activate', 'Models', 'Overall', 'Pipelines', 'Workflows'],
         'platform':['--','Compliance & Security', 'Status', 'Terms & Conditions'],
-        'faq':['--', 'Account Login', 'Advanced Settings', 'Destination Configuration', 'Events Count', 'Hevo Activate', 'Hevo Managed BigQuery', 'Job Configurations', 'Load Status', 'Models', 'Overview Page Functionalities', 'Payments & Invoice', 'Pipelines', 'Plan Details', 'Platform', 'Pricing & Billing', 'Skip Objects', 'Schema Refresh', 'Transformation', 'User Management', 'Workflows'],
+        'faq':['--', 'Account Login', 'Advanced Settings', 'Destination Configuration', 'Data Replication','Events Count', 'Hevo Activate', 'Hevo Managed BigQuery', 'Job Configurations', 'Load Status', 'Models', 'Overview Page Functionalities', 'Payments & Invoice', 'Pipelines', 'Plan Details', 'Platform', 'Pricing & Billing', 'Skip Objects', 'Schema Refresh', 'Transformation', 'User Management', 'Workflows'],
         'activate':['--','Errors', 'Usability', 'Product Behaviour', 'Demo', 'Feature Request'],
         'spam':['--','Not Applicable'],
         'not_an_issue':['--','Not Applicable']
     }
     var teritiary= {
         'default_p': ['--'],
-        'Issue':['--', 'Delay in load', 'Others', 'Structure of data loaded is not correct', 'Data load not started', 'Volume of data mismatch','Issue with transformation'],
+        'Issue':['--', 'Data load not started', 'Delay in load', 'Incorrect structure of data loaded', 'Transformation issue', 'Others'],
         'Source Configuration' : ['--', "ADROLL","AMPLITUDE_ANALYTICS","ANDROID_SDK","APPLE_SEARCH_ADS","APPSFLYER","ATLAS_MONGODB","AURORA","AWS_AURORA_POSTGRES","AWS_ELASTICSEARCH","AWS_RDS_MARIA_DB","AWS_RDS_MSSQL","AWS_RDS_MYSQL","AWS_RDS_ORACLE","AWS_RDS_POSTGRES","AZURE_MARIA_DB","AZURE_MYSQL","AZURE_POSTGRES","AZURE_SQL","CLEVERTAP","CONFLUENT_CLOUD","CRITEO","DRIVE","DYNAMODB","ELASTICSEARCH","FACEBOOK_ADS","FACEBOOK_PAGES","FRESHDESK","FTP","GCP_MS_SQL","GCP_MYSQL","GCP_POSTGRES","GCS","GITHUB","GOOGLE_ADWORDS","GOOGLE_ANALYTICS","GOOGLE_CAMPAIGN_MANAGER","GOOGLE_PLAY_CONSOLE","GOOGLE_SEARCH_CONSOLE","GOOGLE_SHEETS","HUBSPOT","INTERCOM","INTERCOM_WEBHOOK","IOS_SDK","JIRA_CLOUD","KAFKA","KLAVIYO","LINKEDIN_ADS","MAILCHIMP","MAILCHIMP_WEBHOOK","MARIA_DB","MARKETO","MICROSOFT_ADS","MIXPANEL","MONGODB","MS_SQL","MYSQL","ORACLE","ORACLE_MYSQL","OUTBRAIN","PARDOT","POSTGRES","REDSHIFT","RESTAPI","SALESFORCE","SALESFORCE_MARKETING_CLOUD","SEGMENT","SENDGRID","SENDGRID_WEBHOOK","SF_HEROKU_POSTGRES","SHOPIFY","SHOPIFY_WEBHOOK","STRIPE","TOKU_DB_MYSQL","TWITTER_ADS","WEBHOOK","INSTAGRAM_BUSINESS","BIGQUERY","GOOGLE_ANALYTICS_360","YOUTUBE_ANALYTICS"],
         'Destination Configuration' : ['--', 'BIGQUERY', 'MSSQL', 'MYSQL', 'POSTGRES', 'REDSHIFT', 'SNOWFLAKE'],
         'Account': ['--', 'Account Creation', 'Account Deletetion', 'Account Migration', 'Trial Extension', 'Login Issues'],
@@ -47,6 +47,7 @@ jQuery(function($){
         'Model Failure':['--', 'Intermittent', 'Invalid Query', 'Invalid Setup', 'Destination Limiation'],
         'Schema Mapper Errors': ['--', 'Field Failures', 'In-Compatibility', 'Mapping Failure'],
         'Workflow Failure': ['--', 'Step Failure'],
+        'Data Replication': ['--', 'Log Replication', 'Table Replication', 'With Primary Key', 'Without Primary Key', 'Refresher Tasks', 'Appending Data'],
         'Hevo Activate': ['--', 'Not Applicable'],
         'Limitation':['--', 'Not Applicable'],
         'Platform-Down': ['--', 'Not Applicable'],
@@ -64,6 +65,7 @@ jQuery(function($){
         'Compliance & Security' : ['--', 'Not Applicable'],
         'Account Login': ['--', 'Not Applicable'],
         'Events Count': ['--', 'Incremental Load', 'Historical Load', 'General'],
+        'Events': ['--', 'Incremental Load', 'Historical Load', 'General'],
         'Hevo Managed BigQuery': ['--', 'Acceptable Sources', 'Not Applicable'],
         'Payments & Invoice': ['--', 'Not Applicable'],
         'Pipelines':['--', 'Pipeline Modes', 'Data Replication', 'Table Mapping'],
